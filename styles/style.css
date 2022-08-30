@@ -24,6 +24,10 @@ nav a {
     color: #003300;
 }
 
+nav a:hover {
+    color: #9E7B2B;
+}
+
 header {
     width: 100%;
     height: 765px;
@@ -53,16 +57,17 @@ main {
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 700px;
     background-color: antiquewhite;
     overflow-y: scroll;
     scroll-behavior: smooth;
+
 }
 
 .main-section {
     display: flex;
     align-items: flex-end;
-    height: 100%;
+    height: 700px;
+
 }
 
 .left {
@@ -122,36 +127,58 @@ article {
     text-align: left;
 }
 
+.blak {
+    width: 100%;
+    height: 100px;
+    background-color: antiquewhite;
+}
+
 .academic {
     display: flex;
+    justify-content: center;
     width: 100%;
-    height: 700px;
-    background-color: antiquewhite;
-    align-items: center;
+    background-color: #003300;
+    opacity: 0.8;
+    padding-bottom: 60px;
 
 }
 
 .main-academic {
     display: flex;
-    width: 100%;
-    height: 600px;
-    background-color: #003300;
-    margin-top: 10px;
-    justify-content: space-evenly;
-    align-items: center;
-    opacity: 0.8;
+    width: 90%;
+    margin-top: 5%;
+    justify-content: center;
+    background-image: url(../imagenes/forest.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
-.general-academic {
-    display: flex;
-    width: 40%;
-    height: 70%;
+hr {
+    width: 80%;
+    margin-bottom: 30px;
+    border-color: #727878;
+    opacity: 0.2;
+}
+
+.education-title {
+
+    text-align: center;
+    height: 30px;
+    padding-top: 80px;
+}
+
+
+.academic-details {
+    display: block;
+    width: 90%;
+    margin: 20px;
     background-color: antiquewhite;
-    background-repeat: no-repeat;
-    background-size: contain;
-    justify-content: center;
-    align-items: center;
-    padding-top: 0
+    opacity: 0.95;
+    padding-bottom: 80px;
+
+
+
 }
 
 .academic-details h1 {
@@ -159,6 +186,7 @@ article {
     font-size: 24px;
     margin: 0;
     margin-top: 15px;
+
 
 }
 
@@ -169,27 +197,97 @@ article {
     margin: 0;
 }
 
-.software-details {
-    background-image: url(../imagenes/Web-Development1.png);
+.school-detail {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    /* background-color: blue; */
+
+
+
+}
+
+.school-name {
+    margin: 20px;
+    color: HSL(170, 100%, 10%);
+    width: 30%;
+    text-align: right;
+    padding: 10px;
+    /* background-color: aqua  */
+}
+
+.school-detail-text {
+    /* background-color: rebeccapurple; */
+    width: 70%;
+}
+
+.school-detail-text h4 {
+    margin-bottom: -4px;
+    padding-bottom: 0;
+    color: HSL(170, 100%, 10%);
+
+}
+
+.school-detail-text p {
+    margin-top: 0;
+    padding-bottom: 0;
+
+}
+
+.certification-link {
+    color: #007A78;
+    font-size: small;
+}
+
+.certification-link:hover {
+    color: #9E7B2B;
+
+}
+
+.contact-section {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 700px;
+    background-color: antiquewhite;
     justify-content: center;
+    align-items: center;
+  
+    
+}
+
+.contact-section-detail {
+    display: flex;
+    width: 350px;
+    height: 350px;
+    padding: 40px;
+    margin: 10px;
+    background-color: #003300;
+    border-radius: 50%;
     align-items: flex-end;
-    padding-bottom: 20px;
+    justify-content: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
 }
 
-.software-details a{
-    background-color: HSL(170, 100%, 10%);
-    color: antiquewhite;
-    border: 2px solid #4CAF50;
-    padding: 10px 24px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 10px;
-    margin: 4px 2px;
-    cursor: pointer;
+.linkedin{
+    background-image: url(https://i.insider.com/5d7294382e22af28a3748f58?width=700);
 }
 
-.software-details a:hover{
-    background-color:#8BC34A;
-    opacity: 0.9;
+.github{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-UYMtT2KZM2QAyVTwsjMXY-LU1D1InQrQ3w&usqp=CAU);
+}
+.instagram{
+    background-image: url(https://www.pngitem.com/pimgs/m/595-5957085_instagram-logo-and-name-hd-png-download.png);
+ background-size: 960px;
+
+}
+.contact-section-detail img {
+    display: flex;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    align-items: flex-end;
+
 }
