@@ -146,6 +146,7 @@ article {
 .main-academic {
     display: flex;
     width: 90%;
+    height: 700px;
     margin-top: 5%;
     justify-content: center;
     background-image: url(../imagenes/forest.webp);
@@ -176,8 +177,7 @@ hr {
     background-color: antiquewhite;
     opacity: 0.95;
     padding-bottom: 80px;
-
-
+    overflow-y: scroll;
 
 }
 
@@ -252,37 +252,57 @@ hr {
     background-color: antiquewhite;
     justify-content: center;
     align-items: center;
-  
-    
+
+
 }
 
 .contact-section-detail {
     display: flex;
-    width: 350px;
-    height: 350px;
-    padding: 40px;
-    margin: 10px;
+    width: 300px;
+    height: 300px;
+    padding: 50px;
+    margin: 20px;
     background-color: #003300;
     border-radius: 50%;
     align-items: flex-end;
     justify-content: center;
     background-size: contain;
     background-repeat: no-repeat;
-    
+    box-shadow: 15px 10px #66612C7b;
+
 }
 
-.linkedin{
+.linkedin {
     background-image: url(https://i.insider.com/5d7294382e22af28a3748f58?width=700);
 }
 
-.github{
+.linkedin:hover {
+    width: 305px;
+    height: 305px;
+    box-shadow: 15px 10px #45421E;
+}
+
+.github {
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-UYMtT2KZM2QAyVTwsjMXY-LU1D1InQrQ3w&usqp=CAU);
 }
-.instagram{
-    background-image: url(https://www.pngitem.com/pimgs/m/595-5957085_instagram-logo-and-name-hd-png-download.png);
- background-size: 960px;
 
+.github:hover {
+    width: 305px;
+    height: 305px;
+    box-shadow: 15px 10px #45421E;
 }
+
+.instagram {
+    background-image: url(https://www.pngitem.com/pimgs/m/595-5957085_instagram-logo-and-name-hd-png-download.png);
+    background-size: 960px;
+}
+
+.instagram:hover {
+    width: 305px;
+    height: 305px;
+    box-shadow: 15px 10px #45421E;
+}
+
 .contact-section-detail img {
     display: flex;
     width: 170px;
